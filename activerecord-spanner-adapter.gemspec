@@ -19,9 +19,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'activerecord', "~> 5.0"
-  spec.add_dependency 'google-cloud-spanner', "~> 0.23"
-  spec.add_dependency 'google-gax', '~> 0.8'
-  spec.add_development_dependency "bundler", "~> 1.14"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.6.0"
+  spec.add_dependency 'google-cloud-spanner'
+  spec.add_dependency 'google-gax'
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
